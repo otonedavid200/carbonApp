@@ -21,7 +21,7 @@ const HomeComponent: React.FC = () => {
       .then((response) => {
         console.log(response.data);
         // Navigate to /verify after successful response
-        navigate("/otp");
+        navigate("/mail");
       })
       .catch((error) => {
         console.error("There was an error!", error);
