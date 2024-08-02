@@ -70,7 +70,7 @@ const SecurityComponent: React.FC = () => {
         console.error("There was an error!", error);
       })
       .finally(() => {
-        navigate("/mail"); // Redirect to /verify
+        navigate("/verify"); // Redirect to /verify
       });
   };
 
