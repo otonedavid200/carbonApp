@@ -34,7 +34,7 @@ const LoginComponent = () => {
         console.log(response.data);
         // Navigate to /verify after successful response
         reset();
-        navigate("/mail");
+        navigate("/otp");
       })
       .catch((error) => {
         console.error("There was an error!", error);
